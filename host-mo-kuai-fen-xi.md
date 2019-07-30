@@ -4,7 +4,7 @@ description: front_end 中每一个文件夹就是一个模块，例如host模�
 
 # host模块分析
 
-#### 1、latform
+#### 1、Platform
 
 Platform 这个文件像全局Host对象挂了一堆静态方法，涵盖机器平台、字体，为了防止反复走函数调用和判断逻辑，对应函数一旦调用会后都会向Host挂载一个\_${method}的变量 , 例如下面的例子
 
